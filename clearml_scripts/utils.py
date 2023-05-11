@@ -64,3 +64,4 @@ def upload_artifacts():
             artifact_name = str(Path().joinpath(*path.parts[1:])).replace('/', '.slash.')
             task = Task.current_task()
             task.upload_artifact(artifact_name, v)
+            print(f"Uploading {str(v)} as artifact {task.id}/{artifact_name}")
