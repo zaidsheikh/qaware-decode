@@ -3,7 +3,7 @@
 # change these values as needed
 project_name="reranking"
 run_id="run1"
-docker_image="zs12/qaware_decode:v0.1.2"
+docker_image="zs12/qaware_decode:v0.1.3"
 output_file="clearml_artifact_output/utility_scores.txt"
 
 # upload datasets using clearml-data and artifacts using upload_artifacts.py
